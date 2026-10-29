@@ -1,0 +1,15 @@
+###
+GET http://localhost:3000
+###
+GET http://localhost:3000/deshbord
+###
+GET http://localhost:3000/snaklit
+###
+GET http://localhost:3000/api/data
+###
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name" : "waawa"
+}
